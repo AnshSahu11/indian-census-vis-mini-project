@@ -56,7 +56,7 @@ plot = st.sidebar.button('Plot Graph')
 if plot:
 
 
-    st.markdown("<h1 style='text-align: center; color: black;'>India Data Viz </h1>",
+    st.markdown("<h1 style='text-align: center;'>India Data Viz </h1>",
                 unsafe_allow_html=True)
     if selected_state == 'Overall India':
         # plot for india
